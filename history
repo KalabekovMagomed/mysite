@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>История Дербента</title>
+  <meta charset="utf-8">
+  <style type="text/css">
+    body {
+  background-image: url(pro-derbent-2000-107.jpg); 
+}
+  div{
+  
+  margin: 170px;
+    background-color: silver;
+    padding: 10px;
+    text-align: center;
+    background-image: url(a2298817090d4d01772b25fc329fcdbb.jpg);
+}
+</style>
+  </head>
+  <body>
+    <div>
+  <img src="d180af228177fd35f6a1ac45652c3bb1.jpg" width="550" height="400" >
+</div>
+  </body>
+</html>
