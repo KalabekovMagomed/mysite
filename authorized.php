@@ -25,7 +25,7 @@
 	<html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<title>урок по созданию коментариев на сайте</title>
+		<title>коментарии</title>
 	</head>
 	<body><form action="" method="post" class="form">
 	<input type="text" name="name" placeholder="Имя"><br><br>
@@ -38,14 +38,14 @@
 	<?php $komen = mysqli_query($con, "SELECT * FROM `koments` ORDER BY `id`")?> 
 	<?php while($kom = mysqli_fetch_assoc($komen)) { 
 	?>
-	<div class="koment">
+	<div>
 		<img src="12.png" width="40" height="40">
-		<div class="name"><?= $kom['name']?>
+		<div><?= $kom['name']?>
 	</div>
-		<div class="i">
-			<?= $kom['date'] ?> <i class="fa fa-clock-o"></i>
+		<div>
+			<?= $kom['date'] ?> 
 	</div> <br>
-	<div class="message"><?= $kom['message'] ?>
+	<div><?= $kom['message'] ?>
 	  		
 	</div>
 <?php } ?>
